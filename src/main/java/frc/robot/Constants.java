@@ -4,6 +4,8 @@
 
 package frc.robot;
 
+import edu.wpi.first.math.trajectory.TrajectoryConfig;
+
 /**
  * The Constants class provides a convenient place for teams to hold robot-wide numerical or boolean
  * constants. This class should not be used for any other purpose. All constants should be declared
@@ -20,6 +22,8 @@ public final class Constants {
     public static final double rotateWheelGear = 1.0;
     public static final double velocityWheelGear = 1.0/8.16;//6.86
     public static final double wheelCircumfrence = Math.PI * 4*2.54 *0.01;
+
+    public static final TrajectoryConfig config = new TrajectoryConfig(3, 2);
 
 
 }
